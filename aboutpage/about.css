@@ -1,0 +1,73 @@
+
+
+body{
+	margin: 0px;
+  	background-size: cover;
+  	background-position: center;
+	background: url("about.jpg");
+	}
+
+.navbar ul{
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	}
+ 
+.navbar a {
+	color: DarkSlateGray;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	}
+
+.navbar li{
+	list-style-type: none;
+	padding: 10px;
+	}
+
+.navbar a:hover {
+	text-decoration: underline;
+	}
+
+
+.left{
+	float: left;
+	font-size: 50px;
+	font-family: "Helvetica", "sans-serif";
+	}
+.right{
+	float: right;
+	font-family: "Arial Narrow", "sans-serif";
+
+	}
+
+
+.bottomleft {
+	color: darkslategray;
+  	position: fixed;
+  	bottom: 5px;
+  	left: 0px;
+  	padding: 10px;
+  	background-color: transparent;
+	font-size: 20px;
+	}
+
+
+img {
+	margin: 20px auto 0 auto;
+	max-width: 20%;
+	border-radius: 60px;
+	height: auto;
+	display: block;
+	}
+
+p {
+	margin: 30px auto 0 auto;
+	font-size: 20px;
+	color: black;
+	width: 60%;
+	text-align: center;
+	padding: 10px;
+}

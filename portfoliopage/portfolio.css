@@ -1,0 +1,83 @@
+
+
+body{
+	margin: 0px;
+	background: url("back1.jpg");
+  	background-position: center;
+	}
+
+.navbar ul{
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	}
+ 
+.navbar a {
+	color: GoldenRod;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	}
+
+.navbar li{
+	list-style-type: none;
+	padding: 10px;
+	}
+
+.navbar a:hover {
+	text-decoration: underline;
+	}
+
+
+.left{
+	float: left;
+	font-size: 50px;
+	font-family: "Arial Narrow", "sans-serif";
+	}
+.right{
+	float: right;
+	font-family: "Arial Narrow", "sans-serif";
+
+	}
+
+
+.bottomleft {
+	color: GoldenRod;
+  	position: fixed;
+  	bottom: 5px;
+  	left: 0px;
+  	padding: 10px;
+  	background-color: transparent;
+	font-size: 20px;
+	}
+
+
+.big_img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+ 	border-radius: 15px;
+	gap: 0px;
+
+	}
+
+
+.gallery {
+  	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	gap: 10px;
+  	width: 60%;
+  	margin: 0 auto;
+  	padding: 40px 0;
+	}
+
+.thumb {
+  	width: 95%;
+  	height: 250px; 
+  	object-fit: cover; 
+ 	border-radius: 15px;
+  	display: block;
+	}

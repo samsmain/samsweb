@@ -1,0 +1,57 @@
+
+
+body{
+	margin: 0px;
+	background-image: url("kiwi.jpeg");
+  	background-size: cover;
+  	background-position: center;
+	}
+
+.navbar ul{
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	}
+ 
+.navbar a {
+	color: NavajoWhite;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	}
+
+.navbar li{
+	list-style-type: none;
+	padding: 10px;
+	}
+
+.navbar a:hover {
+	text-decoration: underline;
+	}
+
+
+.left{
+	float: left;
+	font-size: 50px;
+	font-family: "Arial Narrow", "sans-serif";
+	}
+.right{
+	float: right;
+	font-family: "Arial Narrow", "sans-serif";
+
+	}
+
+
+.bottomleft {
+	color: NavajoWhite;
+  	position: absolute;
+  	bottom: 5px;
+  	left: 50px;
+	float: left;
+  	padding: 10px;
+  	background-color: transparent;
+	font-size: 20px;
+	}
+
