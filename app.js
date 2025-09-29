@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
 			setTimeout(()=>{
 				window.location.href = "homepage/artportfolio.html";
       			}, 2000);
-		}, 2300);
+		}, 2000);
 	})
 })
 
